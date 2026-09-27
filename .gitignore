@@ -1,0 +1,13 @@
+# Never commit service account keys
+*.json
+!package.json
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+
+# Report is submitted separately
+report/
